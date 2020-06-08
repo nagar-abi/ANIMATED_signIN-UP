@@ -1,0 +1,13 @@
+   .paper {
+       margin-top: auto;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+      
+       }
+    
+       .avatar{
+           margin : auto;
+           
+
+       }

@@ -1,0 +1,97 @@
+<StyledMenu
+        id="customized-menu"
+        anchorEl={anchorE2}
+        keepMounted
+        open={Boolean(anchorE2)}
+        onClose={handleClose}
+      >
+       
+        <StyledMenuItem >         
+          <ListItemIcon >
+            {/* <FacebookIcon fontSize="small" /> */}
+          </ListItemIcon>
+          <ListItemText primary="English" />
+        </StyledMenuItem>
+
+
+          
+     
+        <StyledMenuItem>
+          <ListItemIcon>
+            {/* <TwitterIcon fontSize="small" /> */}
+          </ListItemIcon>
+          <ListItemText primary="Hindi" />
+        </StyledMenuItem>
+       
+        
+      
+        <StyledMenuItem>
+          <ListItemIcon>
+            {/* <InstagramIcon fontSize="small" /> */}
+          </ListItemIcon>
+          <ListItemText primary="Chinese(Simplified)" />
+        </StyledMenuItem>
+      
+
+       
+        <StyledMenuItem>
+          <ListItemIcon>
+            {/* <PinterestIcon fontSize="small" /> */}
+          </ListItemIcon>
+          <ListItemText primary="Japanese" />
+        </StyledMenuItem>
+       
+
+       
+        <StyledMenuItem>
+          <ListItemIcon>
+            {/* <LinkedInIcon fontSize="small" /> */}
+          </ListItemIcon>
+          <ListItemText primary="Thai" />
+        </StyledMenuItem>
+
+
+       
+        <StyledMenuItem>
+          <ListItemIcon>
+            {/* <WhatsAppIcon fontSize="small" /> */}
+          </ListItemIcon>
+          <ListItemText primary="Korean" />
+        </StyledMenuItem>
+
+
+      
+        <StyledMenuItem>
+          <ListItemIcon>
+            {/* <YouTubeIcon fontSize="small" /> */}
+          </ListItemIcon>
+          <ListItemText primary="Russian" />
+        </StyledMenuItem>
+ 
+
+      <StyledMenuItem>
+          <ListItemIcon>
+            {/* <YouTubeIcon fontSize="small" /> */}
+          </ListItemIcon>
+          <ListItemText primary="Indonesian" />
+        </StyledMenuItem>
+     
+     
+
+      <StyledMenuItem>
+          <ListItemIcon>
+            {/* <YouTubeIcon fontSize="small" /> */}
+          </ListItemIcon>
+          <ListItemText primary="Tamil" />
+        </StyledMenuItem>
+     
+  
+
+      <StyledMenuItem>
+          <ListItemIcon>
+            {/* <YouTubeIcon fontSize="small" /> */}
+          </ListItemIcon>
+          <ListItemText primary="Malay" />
+        </StyledMenuItem>
+     
+      </StyledMenu>

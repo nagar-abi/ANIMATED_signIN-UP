@@ -1,0 +1,51 @@
+{
+  "name": "combo3",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.13",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.53",
+    "@material-ui/styles": "^4.9.14",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "email-validator": "^2.0.4",
+    "formik": "^2.1.4",
+    "infinite-react-carousel": "^1.2.11",
+    "marquee-react-dwyer": "^5.9.90",
+    "material-ui": "^1.0.0-beta.47",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-card-flip": "^1.0.10",
+    "react-dom": "^16.13.1",
+    "react-google-button": "^0.7.1",
+    "react-phone-input-2": "^2.13.3",
+    "react-player": "^2.0.1",
+    "react-responsive-carousel": "^3.2.7",
+    "react-scripts": "3.4.1",
+    "yup": "^0.28.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

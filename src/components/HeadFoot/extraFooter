@@ -1,0 +1,170 @@
+import React from 'react';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
+import Container from '@material-ui/core/Container';
+import Link from '@material-ui/core/Link';
+import './main.css'
+import Signup from './signUp';
+import Grid from '@material-ui/core/Grid';
+import Landing from './Landing';
+import BottomNavigation from '@material-ui/core/BottomNavigation';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    flexDirection: 'column',
+    
+    flexGrow : 1,
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  },
+
+  main: {
+    marginTop: theme.spacing(8),
+    marginBottom: theme.spacing(2),
+  },
+  footer1: {
+    minHeight: '32vh',
+    padding: theme.spacing(3, 2),
+    marginTop: 'auto',
+    background : 'transparent',
+  },
+  image: {
+    maxWidth: 200,
+    alignItems : 'left',
+    marginRight : theme.spacing(5),
+  },
+  imageIdb: {
+    maxWidth: 170,
+    alignItems : 'left',
+    marginLeft : theme.spacing(5),
+    backgroundColor : "white",
+    borderRadius : "10px",
+  },
+  image1: {
+    maxWidth: 200,
+    alignItems : 'left',
+  },
+  typoBot:{
+    marginBottom : theme.spacing(2)
+  },
+  under:{
+    marginBottom : theme.spacing(2),
+    textDecorationStyle : "underline",
+  }
+  
+}));
+
+export default function StickyFooter() {
+  const classes = useStyles();
+
+  return (
+   <div>
+    
+   <BottomNavigation>
+    <div className={classes.root}>
+      <CssBaseline />
+      <Container component="main"  maxWidth="sm">
+       
+       
+        
+        {/* <Typography variant="h5" component="h2" gutterBottom>     
+        </Typography> */}
+
+      </Container>
+      
+      <Typography  gutterBottom>
+      <Grid className='footer ' container spacing={0}>
+
+        <Grid item xs={12} sm={4}>
+          <footer className={classes.footer1}>
+          <div >
+    
+          <Typography  align='left'  variant="body1">AGi DMC (TA License No 03266) </Typography>
+          <Typography className={classes.typoBot} align='left'  variant="body1">
+          <Link underline ="none" color ="inherit" 
+          href="https://www.agitechnosys.com/" >
+          Part of AGi Technosys Pte Ltd, Singapore
+          </Link>
+          </Typography>
+
+          <Typography  className={classes.under} align='left'  variant="body1"> Subsidiaries</Typography>
+
+          <Typography align='left'> Killy Travel Technology Ltd, UK    </Typography>
+          <Typography  align='left'> AGi DMC Travel & Forex Pvt Ltd, India    </Typography>
+
+          </div>      
+          </footer>
+        </Grid>
+
+
+        <Grid item xs={12} sm={4}>
+        <footer className={classes.footer1}>
+        <div className='App'>
+
+
+        <marquee >
+           <div  >
+           <img className ={classes.image} src= "https://agidmc.com/images/stb_logo.png" />
+           <img className ={classes.imageIdb} src= "https://agidmc.com/images/itb_logo.png" />
+           </div>
+        </marquee>
+       
+        </div>      
+        </footer>
+        </Grid>
+
+
+      <Grid item xs={12} sm={4}>
+      <footer className={classes.footer1}>
+          <div >
+          <Typography   variant="body1">
+          <Link underline ="none" color ="inherit" 
+          href="" >
+          About |
+          </Link>
+          <Link underline ="none" color ="inherit" 
+          href="https://agidmc.com/career" >
+           {" "}carrers |
+          </Link>
+          <Link underline ="none" color ="inherit" 
+          href="https://agidmc.com/contact" >
+           {" "} Contact Us |
+          </Link> 
+          </Typography>
+
+          <Typography   variant="body1">   
+          <Link underline ="none" color ="inherit" 
+          href="https://agidmc.com/privacy" >
+          privacy Policy |
+          </Link>
+          <Link underline ="none" color ="inherit" 
+          href="https://agidmc.com/terms" >
+          {" "}Terms & conditions 
+          </Link>
+          </Typography>
+          </div> 
+
+          <div>
+          <img src = {'https://agidmc.com/images/googleplaystore.png'}
+               className={classes.image1} />
+        
+          <img src = {'https://agidmc.com/images/appleplaystore.png'}
+               className={classes.image1} />
+          </div>
+
+      </footer>
+      </Grid>
+
+      </Grid>
+      </Typography>
+    </div>
+   </BottomNavigation>
+
+    </div>
+  );
+}

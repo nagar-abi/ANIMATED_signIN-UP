@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+body {
+    top: 0px !important;
+    font-family: 'Comfortaa', cursive !important;
+}
+.navbar1,
+.footer{
+    background: linear-gradient(-45deg, #CC58C6,  #3949AB, #01B1EF );
+    font-weight: 100;
+    font-family: 'Comfortaa', cursive !important;
+    background-size: 400% 400%;
+    margin-top: auto;
+    padding: 3% 2%;
+    -webkit-animation: gradient 20s ease infinite;
+    animation: gradient 10s ease infinite;
+    color: white;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.navbar2{
+    background: transparent!important;
+    scrollbar-shadow-color : transparent !important;
+    box-shadow: transparent;
+    
+}
+.App{
+    align-items: center;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); animation-timing-function: ease-in;}
+    100% { transform: translate(-100%, 0); animation-timing-function: ease-out;}
+}
+
+
